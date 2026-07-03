@@ -134,15 +134,11 @@ void ALostArkCharacter::ExecuteAttack(int32 Index)
 	switch (Index) {
 	
 	case 1:
-		//PlayAnimMontage(Attack1Montage);
+		PlayAnimMontage(Attack1Montage);
 		break;
 	case 2:
-		//PlayAnimMontage(Attack2Montage);
+		PlayAnimMontage(Attack1Montage);
 		break;
-	case 3:
-		//PlayAnimMontage(Attack3Montage);
-		break;
-
 	default:
 		break;
 	}
